@@ -105,10 +105,10 @@ export default function Claim() {
               {(!currentUseState.isConnected) ?
                 <Col lg="6" md="6" className="align-self-center">
                   {(currentUseState.network == "rinkeby") ? <h3 style={{ color: "#fff" }}>DEMO ONLY RINKEBY</h3> : ""}
-                  <h3 className="title" style={{ color: "#e9e2d5"}}>
+                  <h3 className="title" style={{ color: "#000000"}}>
                     { process.env.pageHeader }
                   </h3>
-                  <h4 className="subtitle font-light" style={{ color: "#e9e2d5"}}>
+                  <h4 className="subtitle font-light" style={{ color: "#000000"}}>
                     { process.env.pageText }
                     <br />
                   </h4>
@@ -142,7 +142,7 @@ export default function Claim() {
                         <>
                           {(currentUseState.isWaiting == false) ?
                             <>
-                              <label className="connected">Number of Claimable Farm Folk (1-{currentUseState.whiteListPass.q}):</label>
+                              <label className="connected">Number of Claimable Passive INU NFT's (1-{currentUseState.whiteListPass.q}):</label>
                               <div className="">
                                 <div className="input-group">
                                   <div className="input-group-prepend">
@@ -164,10 +164,10 @@ export default function Claim() {
                             </> :
                             <>
                               <hr />
-                              <h1 className="subtitle font-light" style={{ color: "#e9e2d5"}}>Communicating with the blockchain!</h1>
+                              <h1 className="subtitle font-light" style={{ color: "#000000"}}>Communicating with the blockchain!</h1>
                             </>}
                         </>
-                        : <h1 className="subtitle font-light" style={{ color: "#e9e2d5"}}>You are not on the whitelist</h1>
+                        : <h1 className="subtitle font-light" style={{ color: "#000000"}}>You are not on the whitelist</h1>
                       }
                       <a
                         onClick={() => walletBridge1.disconnect()}
@@ -185,7 +185,7 @@ export default function Claim() {
                       {currentUseState.hashHtml}
                     </>
                     :
-                    <h1 className="subtitle font-light" style={{ color: "#e9e2d5"}}>Claim mint is currently closed!</h1>
+                    <h1 className="subtitle font-light" style={{ color: "#000000"}}>Claim mint is currently closed!</h1>
                   }
                 </Col>
               }

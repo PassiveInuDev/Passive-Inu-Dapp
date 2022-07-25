@@ -95,10 +95,10 @@ const MintPage = () => {
             {(!currentUseState.isConnected) ?
               <Col lg="6" md="6" className="align-self-center">
                 {(currentUseState.network == "rinkeby") ? <h3 style={{ color: "#fff" }}>DEMO ONLY RINKEBY</h3> : ""}
-                <h3 className="title" style={{ color: "#e9e2d5"}}>
+                <h3 className="title" style={{ color: "#000000"}}>
                   { process.env.pageHeader }
                 </h3>
-                <h4 className="subtitle font-light" style={{ color: "#e9e2d5"}}>
+                <h4 className="subtitle font-light" style={{ color: "#000000"}}>
                   { process.env.pageText }
                   <br />
                 </h4>
@@ -151,7 +151,7 @@ const MintPage = () => {
                             </a>
                           </Link>
                         </>
-                        : <h1 style={{ color: "#e9e2d5"}}>You are not on the whitelist</h1>}
+                        : <h1 style={{ color: "#000000"}}>You are not on the whitelist</h1>}
                       <a
                         onClick={() => walletBridge1.disconnect()}
                         className="btn btn-md m-t-30 btn-outline-dark" style={{ backgroundColor: "#741ea1" }}
@@ -160,14 +160,14 @@ const MintPage = () => {
                       </a>
                       <br />
                       <br />
-                      <h4 className="subtitle font-light" style={{ color: "#e9e2d5"}}>
+                      <h4 className="subtitle font-light" style={{ color: "#000000"}}>
                         NFT&apos;s minted {currentUseState.numMinted} of {process.env.maxMint}
                       </h4>
                       <br />
                       {currentUseState.hashHtml}
                     </>
                     :
-                    <h1 className="subtitle font-light" style={{ color: "#e9e2d5"}}>Public mint is currently closed!</h1>
+                    <h1 className="subtitle font-light" style={{ color: "#000000"}}>Public mint is currently closed!</h1>
                   }
                 </>
               </Col>
