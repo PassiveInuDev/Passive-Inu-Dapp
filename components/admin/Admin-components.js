@@ -2,7 +2,7 @@ import React, { useReducer, useState, useEffect } from 'react';
 import Link from "next/link";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
-import bannerimg from "../../assets/images/landingpage/monster.gif";
+import bannerimg from "../../assets/images/landingpage/monster.png";
 import NFTWalletBridge from '../nftWalletBridge'
 import WalletConnectProvider from "@walletconnect/web3-provider";
 
@@ -168,7 +168,7 @@ const AdminComponents = () => {
                   Connect Wallet
                 </a>
                 <Link href={process.env.mainWWW}>
-                  <a className="btn btn-md m-t-30  btn-outline-light " style={{ backgroundColor: "#ce3a7f" }}>
+                  <a className="btn btn-md m-t-30  btn-outline-light " style={{ backgroundColor: "#00028f" }}>
                     Back Home
                   </a>
                 </Link>
