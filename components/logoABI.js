@@ -540,6 +540,49 @@ export default function ContractABI() {
    {
       "inputs":[
          {
+            "internalType":"address",
+            "name":"account",
+            "type":"address"
+         }
+      ],
+      "name":"releasable",
+      "outputs":[
+         {
+            "internalType":"uint256",
+            "name":"",
+            "type":"uint256"
+         }
+      ],
+      "stateMutability":"view",
+      "type":"function"
+   },
+   {
+      "inputs":[
+         {
+            "internalType":"contract IERC20",
+            "name":"token",
+            "type":"address"
+         },
+         {
+            "internalType":"address",
+            "name":"account",
+            "type":"address"
+         }
+      ],
+      "name":"releasable",
+      "outputs":[
+         {
+            "internalType":"uint256",
+            "name":"",
+            "type":"uint256"
+         }
+      ],
+      "stateMutability":"view",
+      "type":"function"
+   },
+   {
+      "inputs":[
+         {
             "internalType":"address payable",
             "name":"account",
             "type":"address"
@@ -685,7 +728,7 @@ export default function ContractABI() {
          },
          {
             "internalType":"bytes",
-            "name":"_data",
+            "name":"data",
             "type":"bytes"
          }
       ],
@@ -1169,7 +1212,7 @@ export default function ContractABI() {
                   "type":"uint8"
                }
             ],
-            "internalType":"struct GenericNFTPumpContract.WhitelistClaimPass",
+            "internalType":"struct PassiveInuNFT.WhitelistClaimPass",
             "name":"whitelistClaimPass",
             "type":"tuple"
          }
