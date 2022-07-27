@@ -5,7 +5,7 @@ module.exports = {
   analyticsId: '7vsHWbYwcKpA3lFTng2Qe9iNzE7',
   env: {
     siteTitle: "Passive INU Minting Dapp",
-    contractAddress: "0x9a46a0807156E56Fd4a767C47974f855242Ea8b1",
+    contractAddress: "0xA8eFc2936213333690551836f30520Ab96B9D4c2",
     infuraID: "045e9c65387a4200aa8559c347fa19a4",
     defaultGas: 125000,//75000,
     mintType : "Pre-Sale", //Pre-Sale Public
