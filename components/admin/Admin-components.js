@@ -163,12 +163,12 @@ const AdminComponents = () => {
                 </h4>
                 <a
                   onClick={() => walletBridge1.showWeb3Modal()}
-                  className="btn btn-success m-r-20 btn-md m-t-30 " style={{ backgroundColor: "#dbf6ff" }}
+                  className="btn btn-success m-r-20 btn-md m-t-30 " style={{ backgroundColor: "#C2C2C2" }}
                 >
                   Connect Wallet
                 </a>
                 <Link href={process.env.mainWWW}>
-                  <a className="btn btn-md m-t-30  btn-outline-light " style={{ backgroundColor: "#dbf6ff" }}>
+                  <a className="btn btn-md m-t-30  btn-outline-light " style={{ backgroundColor: "#ffffff" }}>
                     Back Home
                   </a>
                 </Link>
@@ -189,7 +189,7 @@ const AdminComponents = () => {
                 <a
                   onClick={() => walletBridge1.disconnect()}
                   className="btn btn-md m-t-30 btn-outline-light "
-                  style={{ backgroundColor: "#741ea1" }}
+                  style={{ backgroundColor: "#C2C2C2" }}
                 >
                   Disconnect Wallet
                 </a>

@@ -109,7 +109,7 @@ const MintPage = () => {
                   Connect Wallet
                 </a>
                 <Link href={process.env.mainWWW}>
-                  <a className="btn btn-md m-t-30  btn-outline-light " style={{ backgroundColor: "#00028f" }}>
+                  <a className="btn btn-md m-t-30  btn-outline-light " style={{ backgroundColor: "#ffffff" }}>
                     Back Home
                   </a>
                 </Link>
@@ -154,7 +154,7 @@ const MintPage = () => {
                         : <h1 style={{ color: "#000000"}}>You are not on the whitelist</h1>}
                       <a
                         onClick={() => walletBridge1.disconnect()}
-                        className="btn btn-md m-t-30 btn-outline-dark" style={{ backgroundColor: "#741ea1" }}
+                        className="btn btn-md m-t-30 btn-outline-dark" style={{ backgroundColor: "#C2C2C2" }}
                       >
                         Disconnect Wallet
                       </a>

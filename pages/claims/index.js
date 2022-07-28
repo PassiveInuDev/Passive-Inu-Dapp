@@ -119,7 +119,7 @@ export default function Claim() {
                     Connect Wallet
                   </a>
                   <Link href={process.env.mainWWW}>
-                    <a className="btn btn-md m-t-30  btn-outline-light " style={{ backgroundColor: "#00028f" }}>
+                    <a className="btn btn-md m-t-30  btn-outline-light " style={{ backgroundColor: "#ffffff" }}>
                       Back Home
                     </a>
                   </Link>
@@ -171,7 +171,7 @@ export default function Claim() {
                       }
                       <a
                         onClick={() => walletBridge1.disconnect()}
-                        className="btn btn-md m-t-30 btn-outline-light " style={{ backgroundColor: "#ce3a7f" }}
+                        className="btn btn-md m-t-30 btn-outline-light " style={{ backgroundColor: "#C2C2C2" }}
 
                       >
                         Disconnect Wallet
