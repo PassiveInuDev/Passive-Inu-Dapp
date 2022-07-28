@@ -32,13 +32,13 @@ Header 6
   .navbar-nav {
     .nav-link {
       padding: 35px 15px;
-      color: rgb(213, 211, 183);
+      color: rgb(0, 0, 0);
       transition-duration: 0.2s;
     }
 
     .nav-item:hover .nav-link,
     .nav-item.active .nav-link {
-      color: rgba(255, 255, 255, 1);
+      color: rgb(54, 3, 255);
     }
   }
 
